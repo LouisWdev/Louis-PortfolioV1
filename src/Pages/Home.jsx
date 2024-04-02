@@ -1,7 +1,13 @@
+import { Animator } from '@arwes/react-animator';
+import { Text } from '@arwes/react-text';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Animator>
+      <Text as='p' style={{ color: '#ddd' }}>
+         Welcome to my Portfolio Home page
+      </Text>
+    </Animator>
   )
 }
 
