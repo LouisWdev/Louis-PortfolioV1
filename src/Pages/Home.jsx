@@ -6,16 +6,16 @@ const Home = () => {
   return (
     <Animator>
       <CenterContainer>
-        <Text as='h1' style={{ color: '#5728d6', textAlign: 'center'}}>
+        <Text as='h1' style={{ color: 'white', textAlign: 'center'}}>
           Louis 
         </Text>
-        <Text as='h1' style={{ color: '#5728d6', textAlign: 'center'}}>
+        <Text as='h1' style={{ color: 'white', textAlign: 'center'}}>
           Welcome to my Portfolio
         </Text>
         <ButtonsContainer>
-          <Text as='p' style={{ color: '#5728d6', display: 'inline-block', marginRight: '10px' }}>Portfolio</Text>
-          <Text as='p' style={{ color: '#5728d6', display: 'inline-block', marginRight: '10px' }}>Contact</Text>
-          <Text as='p' style={{ color: '#5728d6', display: 'inline-block', marginRight: '10px' }}>About Me</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>Portfolio</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>Contact</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>About Me</Text>
         </ButtonsContainer>
       </CenterContainer>
     </Animator>
