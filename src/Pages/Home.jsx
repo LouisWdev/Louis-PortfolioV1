@@ -9,7 +9,7 @@ const Home = () => {
         <Text as='h1' style={{ color: 'white', textAlign: 'center'}}>
           Louis 
         </Text>
-        <Text as='h1' style={{ color: 'white', textAlign: 'center'}}>
+        <Text as='h2' style={{ color: 'white', textAlign: 'center'}}>
           Welcome to my Portfolio
         </Text>
         <ButtonsContainer>
