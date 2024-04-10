@@ -7,15 +7,18 @@ const Home = () => {
     <Animator>
       <CenterContainer>
         <Text as='h1' style={{ color: 'white', textAlign: 'center'}}>
-          Louis 
+          Louis W.
         </Text>
         <Text as='h2' style={{ color: 'white', textAlign: 'center'}}>
           Welcome to my Portfolio
         </Text>
+        <Text as='h3' style={{ color: 'white', textAlign: 'center'}}>
+          Feel free to explore my website
+        </Text>
         <ButtonsContainer>
-          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>Portfolio</Text>
-          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>Contact</Text>
-          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '10px' }}>About Me</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Portfolio</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Contact</Text>
+          <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>About Me</Text>
         </ButtonsContainer>
       </CenterContainer>
     </Animator>
@@ -25,7 +28,7 @@ const Home = () => {
 export default Home;
 
 const CenterContainer = styled.div`
-  margin-top: 40vh;
+  margin-top: 30vh;
 `;
 
 const ButtonsContainer = styled.div`
