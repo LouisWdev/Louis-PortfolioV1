@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <Animator>
       <NavbarContainer>
-       <Text as='p' style={{ color: 'white', display: 'inline-block',marginLeft: '10px' }}>Home</Text>
-       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '10px' }}>Contact</Text>
-       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '10px' }}>Portfolio</Text>
-       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '10px'}}>About</Text>
+       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '15px' }}>Home</Text>
+       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '15px' }}>Contact</Text>
+       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '15px' }}>Portfolio</Text>
+       <Text as='p' style={{ color: 'white', display: 'inline-block', marginLeft: '15px'}}>About</Text>
       </NavbarContainer>
     </Animator>
   )
@@ -19,6 +19,6 @@ export default Navbar
 
 const NavbarContainer = styled.div`
      text-align: right;
-     margin-right: 10px;
+     margin-right: 30px;
      cursor: pointer;
 `;
