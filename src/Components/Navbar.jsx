@@ -65,10 +65,12 @@ const NavbarContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
-    width: 100px;
+    width: 75px;
+    font-size: 2vh;
     padding-left: 20px;
-    padding-right: 5px;
+    padding-right: 40px;
     display: inline-block;
+    transition: all 0.5s ease-in;
      
     &:hover {
       border-bottom: 2px solid white;
