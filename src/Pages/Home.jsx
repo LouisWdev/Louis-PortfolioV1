@@ -28,7 +28,7 @@ const Home = () => {
 export default Home;
 
 const CenterContainer = styled.div`
-  margin-top: 30vh;
+  margin-top: 35vh;
 `;
 
 const ButtonsContainer = styled.div`
@@ -41,6 +41,9 @@ const ButtonContainer = styled.div`
     width: 75px;
     font-size: 1rem;
     padding: 10px 2px 5px 15px;
+    margin-top: 5px;
+    margin-right: 8px;
+    text-align: center;
     display: inline-block;
     transition: border 0.5s ease-in;
      
