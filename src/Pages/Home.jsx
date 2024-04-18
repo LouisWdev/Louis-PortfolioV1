@@ -48,7 +48,7 @@ const ButtonContainer = styled.div`
     transition: border 0.5s ease-in;
      
     &:hover {
-      border: 2px solid white;
+      border: 2px solid darkblue;
       border-radius: 5px;
     }
 `;
