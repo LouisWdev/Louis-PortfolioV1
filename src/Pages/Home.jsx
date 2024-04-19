@@ -40,7 +40,7 @@ const ButtonsContainer = styled.div`
 const ButtonContainer = styled.div`
     width: 75px;
     font-size: 1rem;
-    padding: 10px 2px 5px 15px;
+    padding: 10px 5px 5px 15px;
     margin-top: 5px;
     margin-right: 8px;
     text-align: center;
@@ -48,7 +48,7 @@ const ButtonContainer = styled.div`
     transition: border 0.5s ease-in;
      
     &:hover {
-      border: 2px solid darkblue;
+      border: 2px solid red;
       border-radius: 5px;
     }
 `;
