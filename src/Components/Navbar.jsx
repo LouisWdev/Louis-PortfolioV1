@@ -70,6 +70,8 @@ const TextContainer = styled.div`
     padding: 10px 20px 5px 10px;
     display: inline-block;
     transition: all 0.5s ease-in;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
      
     &:hover {
       border-bottom: 2px solid white;
