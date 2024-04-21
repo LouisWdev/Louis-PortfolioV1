@@ -1,6 +1,7 @@
 import { Animator } from '@arwes/react-animator';
 import { Text } from '@arwes/react-text';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,9 +17,15 @@ const Home = () => {
           Feel free to explore my website
         </Text>
         <ButtonsContainer>
-          <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Portfolio</Text></ButtonContainer>
-          <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Contact</Text></ButtonContainer>
-          <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>About</Text></ButtonContainer>
+          <Link to="Portfolio">
+            <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Portfolio</Text></ButtonContainer>
+          </Link>
+          <Link to="Contact">
+           <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Contact</Text></ButtonContainer>
+          </Link>
+          <Link to="About">
+            <ButtonContainer><Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>About</Text></ButtonContainer>
+          </Link>
         </ButtonsContainer>
       </CenterContainer>
     </Animator>
