@@ -49,7 +49,7 @@ const ButtonContainer = styled.div`
     font-size: 1rem;
     padding: 10px 5px 5px 15px;
     margin-top: 5px;
-    margin-right: 8px;
+    margin-right: 15px;
     text-align: center;
     display: inline-block;
     transition: border 0.5s ease-in;
