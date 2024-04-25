@@ -7,7 +7,9 @@ const Navbar = () => {
   return (
     <Animator>
       <NavbarContainer>
-      
+         <TextContainer><Text>Home</Text></TextContainer>
+         <TextContainer><Text>Contact</Text></TextContainer>
+         <TextContainer><Text>About</Text></TextContainer>
       </NavbarContainer>
     </Animator>
   )

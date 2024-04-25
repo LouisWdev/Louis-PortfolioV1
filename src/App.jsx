@@ -3,14 +3,12 @@ import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 
-import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
 
 
 function App() {
   return (
     <>
-     <Navbar/>
      <Routes>
        <Route path="/" element={<Home/>}/>
        <Route path="/Portfolio" element={<Portfolio/>}/>
