@@ -1,15 +1,16 @@
 import { Animator } from '@arwes/react-animator';
 import { Text } from '@arwes/react-text';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
   return (
     <Animator>
       <NavbarContainer>
-         <TextContainer><Text>Home</Text></TextContainer>
-         <TextContainer><Text>Contact</Text></TextContainer>
-         <TextContainer><Text>About</Text></TextContainer>
+         <Link to="/"><TextContainer><Text>Home</Text></TextContainer></Link>
+         <Link to="/Contact"><TextContainer><Text>Contact</Text></TextContainer></Link>
+         <Link to="/About"><TextContainer><Text>About</Text></TextContainer></Link>
       </NavbarContainer>
     </Animator>
   )
