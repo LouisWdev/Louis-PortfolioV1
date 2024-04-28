@@ -10,7 +10,15 @@ const About = () => {
   <Navbar />
     <MainContainer>
       <TextContainer>
-       <Text>Welcome to my about page</Text>
+        <HeadTextContainer>
+         <Text>Welcome to my about page</Text>
+        </HeadTextContainer>
+        <>
+         <Text></Text>
+        </>
+        <ParagraphTextContainer>
+
+        </ParagraphTextContainer>
       </TextContainer>
     </MainContainer> 
   </>
@@ -27,3 +35,9 @@ const MainContainer = styled.div`
 `;
 
 const TextContainer = styled.div``;
+
+const HeadTextContainer = styled.div`
+     font-size: 3vh;
+`;
+
+const ParagraphTextContainer = styled.div``;
