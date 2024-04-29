@@ -13,9 +13,7 @@ const About = () => {
         <HeadTextContainer>
          <Text>Welcome to my about page</Text>
         </HeadTextContainer>
-        <>
-         <Text></Text>
-        </>
+         <Text>Here I will explain how I started with my coding journey</Text> 
         <ParagraphTextContainer>
 
         </ParagraphTextContainer>
@@ -41,3 +39,6 @@ const HeadTextContainer = styled.div`
 `;
 
 const ParagraphTextContainer = styled.div``;
+
+const SubTitle = styled.div``;
+const SubText = styled.div``;
