@@ -42,8 +42,13 @@ const HeadTextContainer = styled.div`
      font-size: 3vh;
 `;
 
-const ParagraphTextContainer = styled.div``;
+const ParagraphTextContainer = styled.div`
+    margin-top: 3vh;
+`;
 
 const SubTitle = styled.div``;
 
-const SubText = styled.div``;
+const SubText = styled.div`
+     margin-left: 35vw;
+     width: 30vw;
+`;
