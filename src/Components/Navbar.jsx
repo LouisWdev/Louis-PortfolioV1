@@ -9,6 +9,7 @@ const Navbar = () => {
     <Animator>
       <NavbarContainer>
          <Link to="/"><TextContainer><Text>Home</Text></TextContainer></Link>
+         <Link to="/Portfolio"><TextContainer><Text>Portfolio</Text></TextContainer></Link>
          <Link to="/Contact"><TextContainer><Text>Contact</Text></TextContainer></Link>
          <Link to="/About"><TextContainer><Text>About</Text></TextContainer></Link>
       </NavbarContainer>

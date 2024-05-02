@@ -4,7 +4,7 @@ const Portfolio = () => {
   return (
     <>
     <Navbar />
-    <div>Portfolio</div>
+    <div>The Portfolio section will be here</div>
     </>
     
   )

@@ -13,7 +13,7 @@ const About = () => {
         <HeadTextContainer>
          <Text>Welcome to my about page</Text>
         </HeadTextContainer>
-        <Text>Here I will explain how I started with my coding journey</Text> 
+        <Text>Here I will explain how I started withA my coding journey</Text> 
         <ParagraphTextContainer>
             <SubTitle>Why I started coding.</SubTitle>
             <SubText>
