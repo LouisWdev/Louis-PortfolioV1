@@ -28,9 +28,9 @@ const NavbarContainer = styled.div`
 const TextContainer = styled.div`
     width: 75px;
     font-size: 1rem;
-    padding: 10px 20px 5px 10px;
+    padding: 8px 12px 5px 2px;
     display: inline-block;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s;
      
     &:hover {
       border-bottom: 2px solid white;
