@@ -46,7 +46,9 @@ const ParagraphTextContainer = styled.div`
     margin-top: 3vh;
 `;
 
-const SubTitle = styled.div``;
+const SubTitle = styled.div`
+    margin-bottom: 0.3vh;
+`;
 
 const SubText = styled.div`
      margin-left: 35vw;
