@@ -28,8 +28,6 @@ const About = () => {
 }
 
 export default About
-
-//STYLED SECTION 
 const MainContainer = styled.div`
     background-color: red;
     text-align: center;
