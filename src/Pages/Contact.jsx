@@ -4,7 +4,11 @@ const Contact = () => {
   return (
     <>
       <Navbar/>
-      <div>Build the form here</div>
+      <form>
+        <input type="text" name="email" /><br/>
+        <input type="text" name="description" /><br/>
+        <button>Send</button>
+      </form>
     </>
   )
 }
