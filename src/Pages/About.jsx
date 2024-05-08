@@ -21,6 +21,22 @@ const About = () => {
              And so I strive to become a 10x developer. Besides coding I also do fitness and long distance running.
             </SubText>
         </ParagraphTextContainer>
+
+        <ParagraphTextContainer>
+            <SubTitle>Why I started coding.</SubTitle>
+            <SubText>
+             I started coding from a young age and was already amazed by how coding works.
+             And so I strive to become a 10x developer. Besides coding I also do fitness and long distance running.
+            </SubText>
+        </ParagraphTextContainer>
+
+        <ParagraphTextContainer>
+            <SubTitle>Why I started coding.</SubTitle>
+            <SubText>
+             I started coding from a young age and was already amazed by how coding works.
+             And so I strive to become a 10x developer. Besides coding I also do fitness and long distance running.
+            </SubText>
+        </ParagraphTextContainer>
       </TextContainer>
     </MainContainer> 
   </>
