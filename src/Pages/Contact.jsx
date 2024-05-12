@@ -7,7 +7,7 @@ const Contact = () => {
       <Navbar/>
       <FormContainer>
        <form>
-         <input type="text" name="email" /><br/>
+         <InputContainer><input type="text" name="email" /></InputContainer><br/>
          <input type="text" name="description" /><br/>
          <button>Send</button>
        </form>
@@ -21,4 +21,8 @@ export default Contact
 const FormContainer = styled.div`
       margin-top: 35vh;
       margin-left: 45vw;
+`;
+
+const InputContainer = styled.div`
+     
 `;
