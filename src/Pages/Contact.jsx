@@ -8,8 +8,8 @@ const Contact = () => {
       <FormContainer>
        <form>
          <InputContainer><input type="text" name="email" /></InputContainer><br/>
-         <input type="text" name="description" /><br/>
-         <button>Send</button>
+         <InputContainer><input type="text" name="description" /></InputContainer><br/>
+         <ButtonContainer><button>Send</button></ButtonContainer>
        </form>
       </FormContainer>
     </>
@@ -19,10 +19,15 @@ const Contact = () => {
 export default Contact
 
 const FormContainer = styled.div`
-      margin-top: 35vh;
-      margin-left: 45vw;
+    margin-top: 35vh;
+    margin-left: 45vw;
 `;
 
 const InputContainer = styled.div`
-     
+    
+`;
+
+const ButtonContainer = styled.div`
+    width: 200px;
+    height: 100px;
 `;
