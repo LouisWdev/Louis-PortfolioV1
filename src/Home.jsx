@@ -52,8 +52,9 @@ const ButtonsContainer = styled.div`
 
 const ButtonContainer = styled.div`
     width: 75px;
-    font-size: 1rem;
-    padding: 10px 5px 5px 15px;
+    font-weight: 450;
+    font-size: 2vh;
+    padding: 10px 5px 12px 15px;
     margin-top: 5px;
     margin-right: 15px;
     text-align: center;
