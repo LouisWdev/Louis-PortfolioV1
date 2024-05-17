@@ -77,7 +77,7 @@ const Label = styled.label`
 const MessageLabel = styled.label`
   font-size: 20px;
   margin-bottom: 5px;
-  margin-right: 5px;
+  margin-right: 4px;
 `;
 
 const NameInput = styled.input`
@@ -93,13 +93,13 @@ const NameInput = styled.input`
 
 const EmailInput = styled.input`
    width: 400px;
-  height: 30px;
-  font-size: 20px;
-  margin-bottom: 10px;
-
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+   height: 30px;
+   font-size: 20px;
+   margin-bottom: 10px;
+ 
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
 `;
 
 const MessageInput = styled.input`
