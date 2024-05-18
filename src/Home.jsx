@@ -60,7 +60,7 @@ const ButtonContainer = styled.div`
     text-align: center;
     display: inline-block;
     transition: border 0.5s ease-in;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 5px;
      
     &:hover {
