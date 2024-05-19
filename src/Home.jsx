@@ -42,6 +42,7 @@ const Background = styled.div`
 
 const CenterContainer = styled.div`
   margin-top: 35vh;
+  font-size: 2.5vh;
 `;
 
 const ButtonsContainer = styled.div`
