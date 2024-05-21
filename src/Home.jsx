@@ -67,5 +67,6 @@ const ButtonContainer = styled.div`
     &:hover {
       border: 2px solid red;
       border-radius: 5px;
+      color: red;
     }
 `;
