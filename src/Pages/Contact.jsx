@@ -133,4 +133,5 @@ const Button = styled.button`
 
 const Context = styled.h3`
     width: 25vw;
+    margin-bottom: 1vh;
 `;
