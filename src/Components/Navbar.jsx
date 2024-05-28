@@ -30,7 +30,7 @@ const TextContainer = styled.div`
     font-size: 1rem;
     padding: 8px 12px 5px 2px;
     display: inline-block;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
      
     &:hover {
       border-bottom: 2px solid white;
