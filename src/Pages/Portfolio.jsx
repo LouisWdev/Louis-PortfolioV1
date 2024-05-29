@@ -6,7 +6,8 @@ const Portfolio = () => {
     <>
     <Navbar />
     <PortfolioContainer>
-     <div>Welcome to the portfolio section</div>
+      <PortfolioTitle>Welcome to the portfolio section</PortfolioTitle>
+      <PortfolioTitleSub></PortfolioTitleSub>
     </PortfolioContainer>
     </>
     
@@ -19,3 +20,9 @@ const PortfolioContainer = styled.div`
       margin-top: 35vh;
       margin-left: 43vw;
 `;
+
+const PortfolioTitle = styled.div`
+      font-weight: 2vw;
+`;
+
+const PortfolioTitleSub = styled.div``;
