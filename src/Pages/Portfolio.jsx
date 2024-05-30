@@ -22,7 +22,7 @@ const PortfolioContainer = styled.div`
 `;
 
 const PortfolioTitle = styled.div`
-      font-weight: 2vw;
+      font-size: 3vh;
 `;
 
 const PortfolioTitleSub = styled.div``;
