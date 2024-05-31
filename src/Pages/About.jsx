@@ -73,6 +73,9 @@ const ParagraphTextContainer = styled.div`
 const SubTitle = styled.div`
     font-size: 2.5vh;
     margin-bottom: 0.5vh;
+    margin-left: 40vw;
+    border-bottom: 2px solid white;
+    width: 400px;
 `;
 
 const SubText = styled.div`
