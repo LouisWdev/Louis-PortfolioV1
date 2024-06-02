@@ -28,7 +28,7 @@ const NavbarContainer = styled.div`
 const TextContainer = styled.div`
     width: 75px;
     font-size: 1rem;
-    padding: 8px 12px 5px 2px;
+    padding: 8px 12px 5px 5px;
     display: inline-block;
     transition: all 0.5s ease-in;
      
