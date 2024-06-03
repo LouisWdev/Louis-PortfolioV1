@@ -18,11 +18,18 @@ export default Portfolio
 
 const PortfolioContainer = styled.div`
       margin-top: 35vh;
-      margin-left: 43vw;
+      margin-left: 40vw;
+      text-align: center;
 `;
 
 const PortfolioTitle = styled.div`
       font-size: 3vh;
+      border-bottom: 2px solid white;
+      width: 25vw;
+      padding-bottom: 8px;
+      margin-bottom: 5px;
 `;
 
-const PortfolioTitleSub = styled.div``;
+const PortfolioTitleSub = styled.div`
+      margin-right: 35vw;
+`;
