@@ -7,7 +7,7 @@ const Portfolio = () => {
     <Navbar />
     <PortfolioContainer>
       <PortfolioTitle>Welcome to the portfolio section</PortfolioTitle>
-      <PortfolioTitleSub></PortfolioTitleSub>
+      <PortfolioTitleSub>All of my developed projects</PortfolioTitleSub>
     </PortfolioContainer>
     </>
     
