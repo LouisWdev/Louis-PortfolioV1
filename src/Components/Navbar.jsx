@@ -26,7 +26,7 @@ const NavbarContainer = styled.div`
 `;
 
 const TextContainer = styled.div`
-    width: 75px;
+    width: 85px;
     font-size: 1rem;
     padding: 8px 12px 5px 5px;
     display: inline-block;
