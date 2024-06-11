@@ -8,11 +8,10 @@ import { Text } from '@arwes/react-text';
 
 
 const Home = () => {
-  const [active] = useState(true);
 
   return (
-       <Animator active={active} duration={{ enter: 2.5, exit: 1.5 }}>
-           <Text as='h1' style={{textAlign: 'center', marginBottom: '5px'}}>
+       <Animator duration={{ enter: 2.5, exit: 1.5 }}>
+           <Text as='h1' style={{textAlign: 'center', marginBottom: '5px' }}>
              Louis W.
            </Text>
            <Text as='h2' style={{textAlign: 'center', marginBottom: '5px'}}>
