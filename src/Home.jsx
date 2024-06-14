@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
        <Animator duration={{ enter: 2.5, exit: 1.5 }}>
-           <Text as='h1' style={{textAlign: 'center', marginBottom: '5px', marginTop: '20vh'}}>
+           <Text as='h1' style={{textAlign: 'center', marginBottom: '5px', marginTop: '30vh'}}>
              Louis W.
            </Text>
            <Text as='h2' style={{textAlign: 'center', marginBottom: '5px'}}>
@@ -21,7 +21,7 @@ const Home = () => {
              Feel free to explore my website
            </Text>
              <Link to="Portfolio">
-               <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '42vw' }}>Portfolio</Text>
+               <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '44.5vw' }}>Portfolio</Text>
              </Link>
              <Link to="Contact">
               <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Contact</Text>
