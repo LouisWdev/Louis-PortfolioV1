@@ -20,6 +20,8 @@ const Home = () => {
            <Text as='h3' style={{textAlign: 'center'}}>
              Feel free to explore my website
            </Text>
+
+            <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
                <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '44.5vw' }}>Portfolio</Text>
              </Link>
@@ -29,6 +31,8 @@ const Home = () => {
              <Link to="About">
                <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>About</Text>
              </Link>
+            </div>
+
        </Animator>
   )
 }
