@@ -1,5 +1,6 @@
 //REACT
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 // ARWES 
 import { Animator } from '@arwes/react-animator';
@@ -23,13 +24,13 @@ const Home = () => {
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-               <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '44.5vw' }}>Portfolio</Text>
+                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '43.4vw' }}>Portfolio</Text>
              </Link>
              <Link to="Contact">
-              <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>Contact</Text>
+                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>Contact</Text>
              </Link>
              <Link to="About">
-               <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px' }}>About</Text>
+                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>About</Text>
              </Link>
             </div>
 
