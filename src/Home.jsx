@@ -15,16 +15,16 @@ const Home = () => {
            <Text as='h1' style={{textAlign: 'center', marginBottom: '5px', marginTop: '30vh'}}>
              Louis W.
            </Text>
-           <Text as='h2' style={{textAlign: 'center', marginBottom: '5px'}}>
+           <Text as='h2' style={{textAlign: 'center', marginBottom: '5px', marginTop: '1vh'}}>
              Welcome to my Portfolio
            </Text>
-           <Text as='h3' style={{textAlign: 'center'}}>
+           <Text as='h3' style={{textAlign: 'center', marginTop: '5px'}}>
              Feel free to explore my website
            </Text>
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '43.4vw' }}>Portfolio</Text>
+                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '43.3vw' }}>Portfolio</Text>
              </Link>
              <Link to="Contact">
                   <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>Contact</Text>
