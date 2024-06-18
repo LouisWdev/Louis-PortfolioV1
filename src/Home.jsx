@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 // ARWES 
-import { Animator } from '@arwes/react-animator';
 import { Text } from '@arwes/react-text';
 
 
@@ -11,7 +10,7 @@ import { Text } from '@arwes/react-text';
 const Home = () => {
 
   return (
-       <Animator duration={{ enter: 2.5, exit: 1.5 }}>
+     <MainTextContainer>
            <Text as='h1' style={{textAlign: 'center', marginBottom: '5px', marginTop: '30vh'}}>
              Louis W.
            </Text>
@@ -33,9 +32,12 @@ const Home = () => {
                   <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>About</Text>
              </Link>
             </div>
-
-       </Animator>
+     </MainTextContainer>
   )
 }
 
 export default Home;
+
+const MainTextContainer = styled.div`
+      
+`;
