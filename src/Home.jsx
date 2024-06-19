@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 // ARWES 
-import { Text } from '@arwes/react-text';
 
 
 
@@ -11,25 +10,25 @@ const Home = () => {
 
   return (
      <MainTextContainer>
-           <Text as='h1' style={{textAlign: 'center', marginBottom: '5px', marginTop: '30vh'}}>
+           <TextContainer>
              Louis W.
-           </Text>
-           <Text as='h2' style={{textAlign: 'center', marginBottom: '5px', marginTop: '1vh'}}>
+           </TextContainer>
+           <TextContainer>
              Welcome to my Portfolio
-           </Text>
-           <Text as='h3' style={{textAlign: 'center', marginTop: '5px'}}>
+           </TextContainer>
+           <TextContainer>
              Feel free to explore my website
-           </Text>
+           </TextContainer>
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '43.3vw' }}>Portfolio</Text>
+                  <ButtonContainer>Portfolio</ButtonContainer>
              </Link>
              <Link to="Contact">
-                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>Contact</Text>
+                  <ButtonContainer>Contact</ButtonContainer>
              </Link>
              <Link to="About">
-                  <Text as='p' style={{ color: 'white', display: 'inline-block', marginRight: '15px', marginLeft: '1.5vw'}}>About</Text>
+                  <ButtonContainer>About</ButtonContainer>
              </Link>
             </div>
      </MainTextContainer>
@@ -39,5 +38,16 @@ const Home = () => {
 export default Home;
 
 const MainTextContainer = styled.div`
-      
+      margin-top: 35vh;
+`;
+
+const TextContainer = styled.div`
+   text-align: center;
+   margin-bottom: 5px;
+   margin-top: 1vh;
+`;
+
+const ButtonContainer = styled.div`
+     display: inline-block;
+     margin-left: 1vw;
 `;
