@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
      <MainTextContainer>
-           <TextContainer>
+           <TextContainer style={{fontSize: '2vh'}}>
              Louis W.
            </TextContainer>
            <TextContainer>
