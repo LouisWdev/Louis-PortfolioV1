@@ -10,10 +10,10 @@ const Home = () => {
 
   return (
      <MainTextContainer>
-           <TextContainer style={{fontSize: '2vh'}}>
+           <TextContainer style={{fontSize: '5vh'}}>
              Louis W.
            </TextContainer>
-           <TextContainer>
+           <TextContainer style={{fontSize: '3.5vh'}}>
              Welcome to my Portfolio
            </TextContainer>
            <TextContainer>
@@ -22,7 +22,7 @@ const Home = () => {
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <ButtonContainer style={{marginLeft: '44.7vw'}}>Portfolio</ButtonContainer>
+                  <ButtonContainer style={{marginLeft: '42vw'}}>Portfolio</ButtonContainer>
              </Link>
              <Link to="Contact">
                   <ButtonContainer>Contact</ButtonContainer>
@@ -50,4 +50,6 @@ const TextContainer = styled.div`
 const ButtonContainer = styled.div`
      display: inline-block;
      margin-left: 1vw;
+     border: solid white 2px;
+     padding: 1vh;
 `;
