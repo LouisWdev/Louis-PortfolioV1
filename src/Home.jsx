@@ -51,5 +51,11 @@ const ButtonContainer = styled.div`
      display: inline-block;
      margin-left: 1vw;
      border: solid white 2px;
-     padding: 1vh;
+     padding: 1.5vh 1vw;
+     border-radius: 5px;
+     transition: 1.5s border;
+
+     &:hover {
+        border: solid blue 3px;
+     }
 `;
