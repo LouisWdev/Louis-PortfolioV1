@@ -22,7 +22,7 @@ const Home = () => {
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <ButtonContainer style={{marginLeft: '42vw'}}>Portfolio</ButtonContainer>
+                  <ButtonContainer style={{marginLeft: '35vw'}}>Portfolio</ButtonContainer>
              </Link>
              <Link to="Contact">
                   <ButtonContainer>Contact</ButtonContainer>
