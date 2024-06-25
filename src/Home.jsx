@@ -22,7 +22,7 @@ const Home = () => {
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <ButtonContainer style={{marginLeft: '35vw'}}>Portfolio</ButtonContainer>
+                  <ButtonContainer style={{marginLeft: '40.2vw'}}>Portfolio</ButtonContainer>
              </Link>
              <Link to="Contact">
                   <ButtonContainer>Contact</ButtonContainer>
@@ -49,6 +49,7 @@ const TextContainer = styled.div`
 
 const ButtonContainer = styled.div`
      display: inline-block;
+     font-weight: bold;
      margin-left: 1vw;
      border: solid white 2px;
      padding: 1.5vh 1vw;
