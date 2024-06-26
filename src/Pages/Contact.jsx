@@ -49,13 +49,13 @@ const Contact = () => {
 export default Contact
 
 const Section = styled.div`
-     height: 90vh;
+     height: 60vh;
      display: flex;
 `;
 
 const FormContainer = styled.div`
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 50px;
 `;
 
 const Form = styled.form`
