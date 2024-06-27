@@ -2,10 +2,6 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-// ARWES 
-
-
-
 const Home = () => {
 
   return (
