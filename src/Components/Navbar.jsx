@@ -30,7 +30,6 @@ const TextContainer = styled.div`
     font-size: 1rem;
     padding: 8px 12px 5px 5px;
     display: inline-block;
-    transition: all 0.5s ease-in;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
     
