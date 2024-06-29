@@ -18,7 +18,7 @@ const Home = () => {
 
             <div style={{marginTop: '15px'}}>
              <Link to="Portfolio">
-                  <ButtonContainer style={{marginLeft: '40.2vw'}}>Portfolio</ButtonContainer>
+                  <ButtonContainer style={{marginLeft: '40vw'}}>Portfolio</ButtonContainer>
              </Link>
              <Link to="Contact">
                   <ButtonContainer>Contact</ButtonContainer>
