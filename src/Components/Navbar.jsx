@@ -32,10 +32,11 @@ const TextContainer = styled.div`
     display: inline-block;
     border-bottom: 1px solid white;
     border-right: 1px solid white;
+    transition: border-bottom border-right 1s;
     
      
     &:hover {
-      border-bottom: 3px solid white;
-      border-right: 3px solid white;
+      border-bottom: 1px solid blue;
+      border-right: 1px solid blue;
     }
 `;
