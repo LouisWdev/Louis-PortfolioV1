@@ -51,8 +51,10 @@ const ButtonContainer = styled.div`
      padding: 1.5vh 1vw;
      border-radius: 5px;
      transition: 1.5s border;
+     transition: 1.5s color;
 
      &:hover {
         border: solid blue 3px;
+        color: blue;
      }
 `;
